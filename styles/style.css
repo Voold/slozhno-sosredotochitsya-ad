@@ -4,7 +4,6 @@
 
 .page {
   max-width: 1024px;
-  margin: 0;
   margin: 0 auto;
   padding: 0;
   font-family: "IBM Plex Mono", sans-serif;
@@ -56,7 +55,6 @@
 }
 
 .header__title {
-  margin-top: min(40vh, calc(1024px*0.4));
   margin-top: clamp(100px, 31.8vh, 0.325 * 1024px);
   margin-bottom: 0;
   margin-left: 4px;
@@ -231,7 +229,7 @@ h4.headline_highlight {
   }
 }
 
-@media (width > 770px) {
+@media (width >= 768px) {
   .header {
     max-height: 1024px;
     margin-bottom: 40px;
