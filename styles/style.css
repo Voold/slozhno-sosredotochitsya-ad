@@ -231,7 +231,7 @@ h4.headline_highlight {
   }
 }
 
-@media (width >= 784px) {
+@media (width > 768px) {
   .header {
     max-height: 1024px;
     margin-bottom: 40px;
@@ -357,7 +357,7 @@ h4.headline_highlight {
 
 }
 
-@media (width >= 1024px) {
+@media (width > 1024px) {
   .header {
     max-height: 768px;
     margin-bottom: 40px;

@@ -7,11 +7,8 @@
   --sub-accent-color: #353430;
 }
 
-.theme-light .page {
-  .rec {
-    display: none;
-  }
-
+.theme-light .page .rec {
+  display: none;
 }
 
 .theme-light .page {
@@ -19,6 +16,7 @@
 }
 
 @media (prefers-color-scheme: light) {
+
   :root {
     --accent-color: #ff8dcb;
     --headline-color: #ffc2e6;

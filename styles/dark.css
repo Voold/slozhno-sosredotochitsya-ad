@@ -7,11 +7,10 @@
   --sub-accent-color: var(--accent-color);
 }
 
-.theme-dark .page {
-  .rec {
-    display: block;
-  }
+.theme-dark .page .rec{
+  display: block;
 }
+
 
 .theme-dark .page {
   background-image: url('../images/cover-image-dark.png');
